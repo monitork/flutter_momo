@@ -1,8 +1,8 @@
 name: flutter_momo
 description: This plugin make MoMo payment method into your app.
 version: 0.0.1
-author:
-homepage:
+author: Monitor K
+homepage: https://github.com/monitork/flutter_momo
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

@@ -10,4 +10,8 @@ class FlutterMomo {
     final String version = await _channel.invokeMethod('getPlatformVersion');
     return version;
   }
+  static Future<Null> showToast(String msg) async{
+    await _channel.invokeMethod('showToast');
+    return null;
+  }
 }

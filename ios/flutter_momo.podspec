@@ -9,10 +9,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 This plugin make MoMo payment method into your app.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/monitork/flutter_momo'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Monitor K' => 'admin@monitork.com' }
   s.source           = { :path => '.' }
+  s.source       = { :git => "https://github.com/momo-wallet/mobile-sdk.git", :branch => "release_swift" }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.platform = :ios, '8.0'
