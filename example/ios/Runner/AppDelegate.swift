@@ -1,5 +1,6 @@
 import UIKit
 import Flutter
+import flutter_momo
 
 @UIApplicationMain
 @objc class AppDelegate: FlutterAppDelegate {
